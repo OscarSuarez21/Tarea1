@@ -9,11 +9,11 @@ package Herencia;
  *
  * @author IST.LOJA
  */
-public class Tetraedro extends Figura_tridimencional{
-    public double calcularArea (double lado){
-        return A=Math.pow(Math.sqrt(3)*lado, 2);
-    }
+public class Cubo extends Figura_tridimencional {
     public double calcularVolumen (double aristas){
-        return V=Math.pow (Math.sqrt(2)/12*aristas,3);
+        return V=Math.pow(aristas, 3);
+    }
+    public double calcularArea (double aristas){
+        return A=Math.pow(6*aristas, 2);
     }
 }

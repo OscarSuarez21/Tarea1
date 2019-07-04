@@ -9,9 +9,17 @@ package Herencia;
  *
  * @author IST.LOJA
  */
-public class Figura_bidimencional extends Figura {
+public class Figura_tridimencional extends Figura {
+    public double V;
     public double A;
-    public double P;
+
+    public double getV() {
+        return V;
+    }
+
+    public void setV(double V) {
+        this.V = V;
+    }
 
     public double getA() {
         return A;
@@ -19,14 +27,6 @@ public class Figura_bidimencional extends Figura {
 
     public void setA(double A) {
         this.A = A;
-    }
-
-    public double getP() {
-        return P;
-    }
-
-    public void setP(double P) {
-        this.P = P;
     }
     
 }
