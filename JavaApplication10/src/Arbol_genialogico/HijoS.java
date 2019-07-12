@@ -9,12 +9,19 @@ package Arbol_genialogico;
  *
  * @author IST.LOJA
  */
-public class HijoS {
+public class HijoS extends Familia{
+  
+    
     Mama mama;
     Papa papa;
     Abuela abuela;
     Abuelo abuelo;
+public HijoS() {
+        setNombres("Onofre ");
+        setApellidos("Suarez");
+        setEdad(14);
 
+    }
     public Mama getMama() {
         return mama;
     }
@@ -47,18 +54,5 @@ public class HijoS {
         this.abuelo = abuelo;
     }
 
-    
-    public HijoS(){
-    setNombres("Onofre");
-    setApellidos("Granda");
-    setEdad(14);
-    
-    
-}
-
-    
-    
-    
-   
     
 }
